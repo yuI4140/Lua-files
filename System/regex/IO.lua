@@ -4,7 +4,7 @@ function read(v)
     f:close()
     return txt
 end
-function write(v,w)
+function write(file,w)
     f=io.open(v,"w")
     txt=f:write(w)
     f:close()
